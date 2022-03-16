@@ -3,7 +3,7 @@ import CoinList from '../../components/crypto/CoinList.js';
 import Layout from '../../components/crypto/Layouts.js';
 import Searchbar from '../../components/crypto/SearchBar.js';
 
-export default function index({ cryptoDados }) {
+export default function Index({ cryptoDados }) {
   console.log(cryptoDados);
 
   const [procura, setProcura] = useState('');

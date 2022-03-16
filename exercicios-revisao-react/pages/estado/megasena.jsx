@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import NumeroDisplay from '../../components/NumeroDisplay';
 import { mega } from '../../function/mega';
 
-export default function megasena() {
+export default function Megasena() {
   var [numeros, setNumeros] = useState([]);
   var [qtdNumeros, setQtdNumeros] = useState(6);
 

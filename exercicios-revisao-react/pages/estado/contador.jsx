@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import NumeroDisplay from '../../components/NumeroDisplay';
 
-export default function contador(props) {
+export default function Contador(props) {
   const [contador, setContador] = useState(0);
   const decremento = () => setContador(contador - 1);
 

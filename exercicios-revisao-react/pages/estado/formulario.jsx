@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function formulario(props) {
+export default function Formulario(props) {
   const [valor, setValor] = useState('Inicial');
 
   function alterarInput() {
